@@ -27,9 +27,9 @@ public class loginPage
          By sub=By.cssSelector("div.mb-3 button[class='btn btn-primary']");
 
          WebElement username_text=driver.findElement(user);
-         username_text.sendKeys("qwer");
+         username_text.sendKeys("qwert");
          WebElement password_text=driver.findElement(pass);
-         password_text.sendKeys("123");
+         password_text.sendKeys("1234");
          WebElement LOGIN_button=driver.findElement(sub);
          LOGIN_button.click();
         return new Finally();
