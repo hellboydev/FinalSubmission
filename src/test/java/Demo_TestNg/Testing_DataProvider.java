@@ -20,8 +20,7 @@ public class Testing_DataProvider
   {
 		HomePage hp = new HomePage();
 		hp.openurl("https://demo.opencart.com/index.php?route=common/home&language=en-gb").clickOnDesktop();
-		ItemPage ip=new ItemPage();
-		ip.nextpage();
+		
 	}
 	
 
