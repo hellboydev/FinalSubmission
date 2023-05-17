@@ -2,6 +2,10 @@ package DataProviderWithExcel;
 
 
 import org.openqa.selenium.WebDriver;
+
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -24,7 +28,8 @@ public class HomePage {
         WebElement subMenu = driver.findElement(pcBy);
         actions.moveToElement(subMenu);
         actions.click().build().perform();
-        Thread.sleep(15000);
+      //  Thread.sleep(15000);
+       // driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         return new ItemPage();
     }
 
