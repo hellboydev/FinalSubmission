@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-17T17:11:55 IST" name="Suite" finished-at="2023-05-17T17:12:36 IST" duration-ms="41270">
+  <suite started-at="2023-05-17T19:27:27 IST" name="Default suite" finished-at="2023-05-17T19:28:10 IST" duration-ms="42547">
     <groups>
     </groups>
-    <test started-at="2023-05-17T17:11:55 IST" name="Test" finished-at="2023-05-17T17:12:36 IST" duration-ms="41270">
+    <test started-at="2023-05-17T19:27:27 IST" name="Default test" finished-at="2023-05-17T19:28:10 IST" duration-ms="42547">
       <class name="Demo_TestNg.Testing_DataProvider">
-        <test-method signature="tstdata()[pri:0, instance:Demo_TestNg.Testing_DataProvider@72f926e6]" started-at="2023-05-17T17:11:55 IST" name="tstdata" finished-at="2023-05-17T17:12:36 IST" duration-ms="41213" status="PASS">
+        <test-method signature="tstdata()[pri:0, instance:Demo_TestNg.Testing_DataProvider@72f926e6]" started-at="2023-05-17T19:27:27 IST" name="tstdata" finished-at="2023-05-17T19:28:10 IST" duration-ms="42435" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tstdata -->
       </class> <!-- Demo_TestNg.Testing_DataProvider -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
