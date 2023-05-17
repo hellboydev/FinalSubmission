@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
   <classes>
   <class name="Demo_TestNg.Testing_DataProvider"></class>
+  <class name="Demo_TestNg.Test_HomePage"></class>
   </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

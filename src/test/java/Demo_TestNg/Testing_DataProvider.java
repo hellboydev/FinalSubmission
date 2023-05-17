@@ -1,14 +1,12 @@
 package Demo_TestNg;
 
 
-import java.io.IOException;
 
-import org.testng.annotations.DataProvider;
+
 import org.testng.annotations.Test;
-import DataProviderWithExcel.DataReader;
 import DataProviderWithExcel.HomePage;
 import DataProviderWithExcel.ItemPage;
-import DataProviderWithExcel.loginPage;
+
 
 
 public class Testing_DataProvider
@@ -24,9 +22,6 @@ public class Testing_DataProvider
 		hp.openurl("https://demo.opencart.com/index.php?route=common/home&language=en-gb").clickOnDesktop();
 		ItemPage ip=new ItemPage();
 		ip.nextpage();
-		loginPage lp=new loginPage();
-		lp.nextOne();
-	
 	}
 	
 
