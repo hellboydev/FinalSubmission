@@ -1,11 +1,7 @@
 package Demo_TestNg;
 
 
-import java.io.IOException;
-
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import DataProviderWithExcel.DataReader;
 import DataProviderWithExcel.HomePage;
 import DataProviderWithExcel.ItemPage;
 import DataProviderWithExcel.loginPage;
