@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Demo_TestNg.Demo_Btes">
+      <class name="Demo_TestNg.Testing_DataProvider">
         <methods>
-          <include name="afterMethod"/>
-          <include name="methodtriologyBefore"/>
-          <include name="OpenWebsite"/>
+          <include name="tstdata"/>
         </methods>
-      </class> <!-- Demo_TestNg.Demo_Btes -->
+      </class> <!-- Demo_TestNg.Testing_DataProvider -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

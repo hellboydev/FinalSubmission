@@ -3,13 +3,11 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Demo_TestNg.Demo_Btes">
+      <class name="Demo_TestNg.Testing_DataProvider">
         <methods>
-          <include name="afterMethod"/>
-          <include name="methodtriologyBefore"/>
-          <include name="OpenWebsite"/>
+          <include name="tstdata"/>
         </methods>
-      </class> <!-- Demo_TestNg.Demo_Btes -->
+      </class> <!-- Demo_TestNg.Testing_DataProvider -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
